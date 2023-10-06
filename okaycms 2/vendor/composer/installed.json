@@ -1,0 +1,415 @@
+[
+    {
+        "name": "gregwar/cache",
+        "version": "v1.0.12",
+        "version_normalized": "1.0.12.0",
+        "target-dir": "Gregwar/Cache",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Gregwar/Cache.git",
+            "reference": "305d0f5a12c0beecbbd7e1de236f59f39e0c0ac3"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Gregwar/Cache/zipball/305d0f5a12c0beecbbd7e1de236f59f39e0c0ac3",
+            "reference": "305d0f5a12c0beecbbd7e1de236f59f39e0c0ac3",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3"
+        },
+        "time": "2016-09-23T08:16:04+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Gregwar\\Cache": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Gregwar",
+                "email": "g.passault@gmail.com"
+            }
+        ],
+        "description": "A lightweight file-system cache system",
+        "keywords": [
+            "cache",
+            "caching",
+            "file-system",
+            "system"
+        ]
+    },
+    {
+        "name": "gregwar/image",
+        "version": "v2.0.24",
+        "version_normalized": "2.0.24.0",
+        "target-dir": "Gregwar/Image",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Gregwar/Image.git",
+            "reference": "52145816255dd20cb4bb115d0f9e1030c6287994"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Gregwar/Image/zipball/52145816255dd20cb4bb115d0f9e1030c6287994",
+            "reference": "52145816255dd20cb4bb115d0f9e1030c6287994",
+            "shasum": ""
+        },
+        "require": {
+            "ext-gd": "*",
+            "gregwar/cache": "^1.0.6",
+            "php": "^5.3 || ^7.0"
+        },
+        "require-dev": {
+            "sllh/php-cs-fixer-styleci-bridge": "~1.0",
+            "symfony/phpunit-bridge": "^2.7.4 || ^3.0"
+        },
+        "suggest": {
+            "behat/transliterator": "Transliterator provides ability to set non-latin1 pretty names"
+        },
+        "time": "2019-01-27T15:10:06+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Gregwar\\Image": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Grégoire Passault",
+                "email": "g.passault@gmail.com",
+                "homepage": "http://www.gregwar.com/"
+            }
+        ],
+        "description": "Image handling",
+        "homepage": "https://github.com/Gregwar/Image",
+        "keywords": [
+            "gd",
+            "image"
+        ]
+    },
+    {
+        "name": "mobiledetect/mobiledetectlib",
+        "version": "2.8.33",
+        "version_normalized": "2.8.33.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/serbanghita/Mobile-Detect.git",
+            "reference": "cd385290f9a0d609d2eddd165a1e44ec1bf12102"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/serbanghita/Mobile-Detect/zipball/cd385290f9a0d609d2eddd165a1e44ec1bf12102",
+            "reference": "cd385290f9a0d609d2eddd165a1e44ec1bf12102",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.0.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "~4.8.35||~5.7"
+        },
+        "time": "2018-09-01T15:05:15+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "Mobile_Detect.php"
+            ],
+            "psr-0": {
+                "Detection": "namespaced/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Serban Ghita",
+                "email": "serbanghita@gmail.com",
+                "homepage": "http://mobiledetect.net",
+                "role": "Developer"
+            }
+        ],
+        "description": "Mobile_Detect is a lightweight PHP class for detecting mobile devices. It uses the User-Agent string combined with specific HTTP headers to detect the mobile environment.",
+        "homepage": "https://github.com/serbanghita/Mobile-Detect",
+        "keywords": [
+            "detect mobile devices",
+            "mobile",
+            "mobile detect",
+            "mobile detector",
+            "php mobile detect"
+        ]
+    },
+    {
+        "name": "phpmailer/phpmailer",
+        "version": "v6.0.7",
+        "version_normalized": "6.0.7.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/PHPMailer/PHPMailer.git",
+            "reference": "0c41a36d4508d470e376498c1c0c527aa36a2d59"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/0c41a36d4508d470e376498c1c0c527aa36a2d59",
+            "reference": "0c41a36d4508d470e376498c1c0c527aa36a2d59",
+            "shasum": ""
+        },
+        "require": {
+            "ext-ctype": "*",
+            "ext-filter": "*",
+            "php": ">=5.5.0"
+        },
+        "require-dev": {
+            "doctrine/annotations": "1.2.*",
+            "friendsofphp/php-cs-fixer": "^2.2",
+            "phpdocumentor/phpdocumentor": "2.*",
+            "phpunit/phpunit": "^4.8 || ^5.7",
+            "zendframework/zend-eventmanager": "3.0.*",
+            "zendframework/zend-i18n": "2.7.3",
+            "zendframework/zend-serializer": "2.7.*"
+        },
+        "suggest": {
+            "ext-mbstring": "Needed to send email in multibyte encoding charset",
+            "hayageek/oauth2-yahoo": "Needed for Yahoo XOAUTH2 authentication",
+            "league/oauth2-google": "Needed for Google XOAUTH2 authentication",
+            "psr/log": "For optional PSR-3 debug logging",
+            "stevenmaguire/oauth2-microsoft": "Needed for Microsoft XOAUTH2 authentication",
+            "symfony/polyfill-mbstring": "To support UTF-8 if the Mbstring PHP extension is not enabled (^1.2)"
+        },
+        "time": "2019-02-01T15:04:28+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "PHPMailer\\PHPMailer\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL-2.1"
+        ],
+        "authors": [
+            {
+                "name": "Jim Jagielski",
+                "email": "jimjag@gmail.com"
+            },
+            {
+                "name": "Marcus Bointon",
+                "email": "phpmailer@synchromedia.co.uk"
+            },
+            {
+                "name": "Andy Prevost",
+                "email": "codeworxtech@users.sourceforge.net"
+            },
+            {
+                "name": "Brent R. Matzelle"
+            }
+        ],
+        "description": "PHPMailer is a full-featured email creation and transfer class for PHP"
+    },
+    {
+        "name": "rosell-dk/image-mime-type-guesser",
+        "version": "0.3",
+        "version_normalized": "0.3.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/rosell-dk/image-mime-type-guesser.git",
+            "reference": "204fd61ca81e3b0ba46c6165dab8f74816b1fe99"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/rosell-dk/image-mime-type-guesser/zipball/204fd61ca81e3b0ba46c6165dab8f74816b1fe99",
+            "reference": "204fd61ca81e3b0ba46c6165dab8f74816b1fe99",
+            "shasum": ""
+        },
+        "require-dev": {
+            "friendsofphp/php-cs-fixer": "^2.11",
+            "phpunit/phpunit": "^5.7.27",
+            "squizlabs/php_codesniffer": "3.*"
+        },
+        "time": "2019-03-29T09:33:28+00:00",
+        "type": "library",
+        "extra": {
+            "scripts-descriptions": {
+                "ci": "Run tests before CI",
+                "phpcs": "Checks coding styles (PSR2) of file/dir, which you must supply. To check all, supply 'src'",
+                "phpcbf": "Fix coding styles (PSR2) of file/dir, which you must supply. To fix all, supply 'src'",
+                "cs-fix-all": "Fix the coding style of all the source files, to comply with the PSR-2 coding standard",
+                "cs-fix": "Fix the coding style of a PHP file or directory, which you must specify.",
+                "test": "Launches the preconfigured PHPUnit"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "ImageMimeTypeGuesser\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Bjørn Rosell",
+                "homepage": "https://www.bitwise-it.dk/contact",
+                "role": "Project Author"
+            }
+        ],
+        "description": "Guess mime type of images",
+        "keywords": [
+            "image",
+            "images",
+            "mime",
+            "mime type"
+        ]
+    },
+    {
+        "name": "rosell-dk/webp-convert",
+        "version": "2.1.4",
+        "version_normalized": "2.1.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/rosell-dk/webp-convert.git",
+            "reference": "4ea37baaa3edee036223b45249ec6898fa945821"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/rosell-dk/webp-convert/zipball/4ea37baaa3edee036223b45249ec6898fa945821",
+            "reference": "4ea37baaa3edee036223b45249ec6898fa945821",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^5.6 | ^7.0",
+            "rosell-dk/image-mime-type-guesser": "^0.3"
+        },
+        "require-dev": {
+            "friendsofphp/php-cs-fixer": "^2.11",
+            "phpunit/phpunit": "5.7.27",
+            "squizlabs/php_codesniffer": "3.*"
+        },
+        "suggest": {
+            "ext-gd": "to use GD extension for converting. Note: Gd must be compiled with webp support",
+            "ext-imagick": "to use Imagick extension for converting. Note: Gd must be compiled with webp support",
+            "ext-vips": "to use Vips extension for converting.",
+            "php-stan/php-stan": "Suggested for dev, in order to analyse code before committing"
+        },
+        "time": "2019-06-28T19:21:17+00:00",
+        "type": "library",
+        "extra": {
+            "scripts-descriptions": {
+                "ci": "Run tests before CI",
+                "phpcs": "Checks coding styles (PSR2) of file/dir, which you must supply. To check all, supply 'src'",
+                "phpcbf": "Fix coding styles (PSR2) of file/dir, which you must supply. To fix all, supply 'src'",
+                "cs-fix-all": "Fix the coding style of all the source files, to comply with the PSR-2 coding standard",
+                "cs-fix": "Fix the coding style of a PHP file or directory, which you must specify.",
+                "test": "Launches the preconfigured PHPUnit"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "WebPConvert\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Martin Folkers",
+                "homepage": "https://twobrain.io",
+                "role": "Collaborator"
+            },
+            {
+                "name": "Bjørn Rosell",
+                "homepage": "https://www.bitwise-it.dk/contact",
+                "role": "Project Author"
+            }
+        ],
+        "description": "Convert JPEG & PNG to WebP with PHP",
+        "keywords": [
+            "Webp",
+            "cwebp",
+            "gd",
+            "image conversion",
+            "images",
+            "imagick",
+            "jpg",
+            "jpg2webp",
+            "png",
+            "png2webp"
+        ]
+    },
+    {
+        "name": "smarty/smarty",
+        "version": "v3.1.18",
+        "version_normalized": "3.1.18.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/smarty-php/smarty.git",
+            "reference": "bf1de6c1051ec648b546839ad84eeead76aea819"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/smarty-php/smarty/zipball/bf1de6c1051ec648b546839ad84eeead76aea819",
+            "reference": "bf1de6c1051ec648b546839ad84eeead76aea819",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.2"
+        },
+        "time": "2014-10-31T01:15:15+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.1.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "libs/Smarty.class.php",
+                "libs/SmartyBC.class.php",
+                "libs/sysplugins/smarty_security.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL-3.0"
+        ],
+        "authors": [
+            {
+                "name": "Monte Ohrt",
+                "email": "monte@ohrt.com"
+            },
+            {
+                "name": "Uwe Tews",
+                "email": "uwe.tews@googlemail.com"
+            },
+            {
+                "name": "Rodney Rehm",
+                "email": "rodney.rehm@medialize.de"
+            }
+        ],
+        "description": "Smarty - the compiling PHP template engine",
+        "homepage": "http://www.smarty.net",
+        "keywords": [
+            "templating"
+        ]
+    }
+]
